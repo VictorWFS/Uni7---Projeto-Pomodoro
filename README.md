@@ -15,11 +15,17 @@ O Sistema deve utilizar de um temporazidador para administrar o tempo de estudo 
 tempo de estudo que ele deseja. O sistema deve contar com uma interface simples e de fácil compreensão para o usuário, como por exemplo:
 
 -Botões simples e intuitivos
+
 -Fonte legível
+
 -Número bem vísivel na tela
+
 -Tamanho do número com tamanho grande, pois é o foco do sistema
+
 -Interface simples e intuitiva
+
 -O sistema deve avisar quando o tempo de estudos estiver chegando ao fim e quando chegar ao fim, com um alarme ou outro tipo de som
+
 -O sistema deve ter uma opção "Background Music", uma música de fundo caso o usuário queira
 
 3. Requisitos de interface
@@ -47,8 +53,11 @@ para suportar toda a funcionalidade.
 7. Casos de uso
 
 Para utilizar o sistema não é necessário muitos passos, são apenas algumas etapas:
+
 -Iniciar o temporizador com o botão "start", ou setar o valor de tempo desejado e logo após iniciar com "start"
+
 -Esperar o temporizador zerar ou pausar utilizando o botão de "stop"
+
 -Usufruir da opção de música durante o temporizador
 
 Por não ter tantas funcionalidades, torna o uso bem simples e intuitivo.
@@ -64,7 +73,10 @@ já estiver rodando.
 O sistema pode ser dito como aprovado, após testar todas suas funcionalidades(que não são muitas), como: 
 
 -Se o temporizador está funcionando normalmente
+
 -Se está interagindo corretamente com os botões
+
 -Se a opção de música está funcionando
+
 -Se a música pausa no mesmo momento que o temporizador zera
 
