@@ -5,7 +5,7 @@ Nome do Projeto: Pomodoro-Web-App
 
 1. Partes interessadas
 
-As pessoas que se interessarão por esse projeto são aquelas pessoas que necessitam de algum método de estudo avançado, que nesse caso seria o método de pomodoro, que consiste em estudar com um temporizador com um determinado tempo específico e a cada vez que esse tempo- rizador chegar ao fim, é iniciado um tempo de descanso, após o descanso terminar é iniciado um novo temporizador de estudos, assim criando um ciclo de estudo e descanso, por exemplo: "Hoje eu irei estudar com 4 ciclos de 25 minutos com 5 minutos de descanso cada".
+As pessoas que se interessarão por esse projeto são aquelas pessoas que necessitam de algum método de estudo avançado, que nesse caso seria o método de pomodoro, que consiste em estudar com um temporizador com um determinado tempo específico e a cada vez que esse tempo rizador chegar ao fim, é iniciado um tempo de descanso, após o descanso terminar é iniciado um novo temporizador de estudos, assim criando um ciclo de estudo e descanso, por exemplo: "Hoje eu irei estudar com 4 ciclos de 25 minutos com 5 minutos de descanso cada".
 
 2. Requisitos Funcionais
 
