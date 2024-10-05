@@ -1,0 +1,175 @@
+*{
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(135deg, #ff7a5d, #ffd4ca);
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+#pomodoro-app {
+  width: 100%;
+  max-width: 450px;
+  background-color: #ff5d39;
+  margin: 50px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+  height: 530px;
+  box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+#pomodoro-app h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: black;
+}
+
+.wrapper-1,
+.wrapper-2 {
+  display: flex;
+}
+
+.count-wrapper-1 {
+  width: 250px;
+  height: 140px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-wrapper-1 div {
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+.count-wrapper-2 {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: row;
+  width: 250px;
+  position: relative;
+}
+
+.count-wrapper-2 div {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.wrapper-buttons1,
+.wrapper-buttons2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.button-container1,
+.button-container2 {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#start-button,
+#stop-button,
+#reset-button {
+  border: none;
+  width: 80px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  background: #ff471d;
+  color: #fff;
+}
+
+#start-button:hover,
+#stop-button:hover,
+#reset-button:hover{
+  background: #fd5029;
+  cursor: pointer;
+}
+
+
+.inputContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 450;
+}
+
+.input-container-minutes,
+.input-container-seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+
+.inputContainers input {
+  width: 50px;
+  height: 40px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+  background: #ff471d;
+  outline: none;
+}
+
+
+.time-type-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-type-input-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  padding: 0;
+  margin-top: 5px;
+  font-family: Roboto;
+}
+
+#setTime-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setTime-button-container button {
+  border: none;
+  width: 80px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  background: #ff471d;
+  color: #fff;
+}
+
+#setTime:hover {
+  background: #fd5029;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
